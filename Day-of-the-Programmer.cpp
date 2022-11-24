@@ -1,3 +1,10 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+string ltrim(const string &);
+string rtrim(const string &);
+
 string dayOfProgrammer(int year)
 {
     string result;
