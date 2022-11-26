@@ -24,3 +24,21 @@ string dayOfProgrammer(int year)
     
     return result;
 }
+
+int main()
+{
+    ofstream fout(getenv("OUTPUT_PATH"));
+
+    string year_temp;
+    getline(cin, year_temp);
+
+    int year = stoi(ltrim(rtrim(year_temp)));
+
+    string result = dayOfProgrammer(year);
+
+    fout << result << "\n";
+
+    fout.close();
+
+    return 0;
+}
