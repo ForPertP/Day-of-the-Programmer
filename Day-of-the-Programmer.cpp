@@ -5,6 +5,13 @@ using namespace std;
 string ltrim(const string &);
 string rtrim(const string &);
 
+/*
+ * Complete the 'dayOfProgrammer' function below.
+ *
+ * The function is expected to return a STRING.
+ * The function accepts INTEGER year as parameter.
+ */
+
 string dayOfProgrammer(int year)
 {
     string result;
